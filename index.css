@@ -1,0 +1,56 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg, #212020, #6d6d6d);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+ 
+  .container {
+    text-align: center;
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+  }
+  
+  
+  h1 {
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px;
+  }
+  
+  .sugerencia {
+    text-align: center; 
+    margin-top: 20px; 
+    color: rgb(26, 26, 26);
+  }
+  
+  .sugerencia:hover {
+    color: #aaaaaa; 
+  }
+  
+
+  #user-image {
+    max-width: 200px;
+    border-radius: 50%;
+    border: 5px solid #ffbb00;
+    box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.5);
+    transition: transform 0.3s;
+  }
+  
+  #user-image:hover {
+    transform: scale(1.1);
+  }
+  
+
+  #user-name {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #8f8f8f;
+  }
+  
